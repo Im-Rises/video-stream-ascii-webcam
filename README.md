@@ -21,6 +21,8 @@ ASCII art in real time. The output is real text, so you can copy and paste it di
 
 The installation and usage of the package is explained in the package's README.
 
+The example is using the webcam of your device, but you can use any video stream, like a video file or a video stream.
+
 ## Screenshots
 
 <img src="https://user-images.githubusercontent.com/59691442/209728294-e10691da-eb4f-43e6-880c-522417da79c6.png" alt="screenshot" style="width: 100%;">
