@@ -1,5 +1,5 @@
-import React, {useRef, useEffect} from 'react';
-import './GitHubProjectPanel.css';
+import React from 'react';
+import './GitHubProjectPanel.scss';
 
 type Params = {
 	link: string;
