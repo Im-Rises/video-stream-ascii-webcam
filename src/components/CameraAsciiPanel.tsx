@@ -1,5 +1,5 @@
 import React, {useEffect, useRef, useState} from 'react';
-import VideoAscii from './VideoAscii';
+import VideoAscii from 'video-stream-ascii';
 import Webcam from 'react-webcam';
 import './CameraAsciiPanel.css';
 
@@ -68,7 +68,9 @@ const CameraAsciiPanel = () => {
 	return (
 		<div className={'Camera-Ascii-Panel'} data-testid='camera-ascii-test' ref={parentRef}>
 			<div>
-				<button className={'Button-Copy-Clipboard'} onClick={async () => copyToClipboard(preTagRef.current!.innerText)}>Copy</button>
+				<button className={'Button-Copy-Clipboard'}
+					onClick={async () => copyToClipboard(preTagRef.current!.innerText)}>Copy
+				</button>
 			</div>
 			<div>
 				<Webcam ref={videoRef}
