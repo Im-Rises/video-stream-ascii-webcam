@@ -7976,10 +7976,10 @@ sass-loader@^12.3.0:
     klona "^2.0.4"
     neo-async "^2.6.2"
 
-sass@^1.61.0:
-  version "1.61.0"
-  resolved "https://registry.npmjs.org/sass/-/sass-1.61.0.tgz"
-  integrity sha512-PDsN7BrVkNZK2+dj/dpKQAWZavbAQ87IXqVvw2+oEYI+GwlTWkvbQtL7F2cCNbMqJEYKPh1EcjSxsnqIb/kyaQ==
+sass@^1.62.0:
+  version "1.62.0"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.62.0.tgz#3686b2195b93295d20765135e562366b33ece37d"
+  integrity sha512-Q4USplo4pLYgCi+XlipZCWUQz5pkg/ruSSgJ0WRDSb/+3z9tXUOkQ7QPYn4XrhZKYAK4HlpaQecRwKLJX6+DBg==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
@@ -8963,10 +8963,10 @@ vary@~1.1.2:
   resolved "https://registry.npmjs.org/vary/-/vary-1.1.2.tgz"
   integrity sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==
 
-video-stream-ascii@^0.7.1:
-  version "0.7.1"
-  resolved "https://registry.npmjs.org/video-stream-ascii/-/video-stream-ascii-0.7.1.tgz"
-  integrity sha512-QQYIqHAN/pPVWQ6nvA8NxwykJJG+yqFrUyxmktc4yeCTQHEgUgeMI2sy8j+xX09t1B6oxhwDcSIM99tYeJazBg==
+video-stream-ascii@^0.9.1:
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/video-stream-ascii/-/video-stream-ascii-0.9.1.tgz#d6f051e49b3dd82b785c1bd4a9aa11f290101fa8"
+  integrity sha512-z5NW+kJGrCcX7+z4MBVbXhEOWyEfXh6NhvNnnjaEgGjmKHyFOL5ULbCX+9y96Bov1NfKSLx7VQ2NRtU85GoYDw==
   dependencies:
     react "^18.2.0"
     react-dom "^18.2.0"

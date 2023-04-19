@@ -5,8 +5,9 @@ import './CameraAsciiPanel.scss';
 
 const CameraAsciiPanel = () => {
 	// Define the ascii art chars per line
-	const charsPerLine = 200;
+	const charsPerLine = 100;
 	const [charsPerColumn, setCharsPerColumn] = useState(0);
+	const [useColor, setUseColor] = useState(false);
 	const preTagRef = useRef<HTMLPreElement>(null);
 
 	// Define the hook state for the webcam
@@ -63,6 +64,10 @@ const CameraAsciiPanel = () => {
 		}
 	};
 
+	const toggleColorMode = () => {
+		setUseColor(!useColor);
+	};
+
 	// Tags of the webcam and video ascii element
 	// Show the webcam only when it is ready, otherwise show a loading message
 	return (
@@ -70,6 +75,10 @@ const CameraAsciiPanel = () => {
 			<div>
 				<button className={'Button-Copy-Clipboard'}
 					onClick={async () => copyToClipboard(preTagRef.current!.innerText)}>Copy
+				</button>
+				<button className={'Button-Toggle-Color'} onClick={() => {
+					toggleColorMode();
+				}}>Toggle color
 				</button>
 			</div>
 			<div>
@@ -81,12 +90,12 @@ const CameraAsciiPanel = () => {
 					<VideoAscii
 						videoStreaming={videoRef.current!.video!}
 						parentRef={parentRef}
-						frameRate={30}
 						charsPerLine={charsPerLine}
 						charsPerColumn={charsPerColumn}
 						fontColor={'white'}
 						backgroundColor={'black'}
 						preTagRef={preTagRef}
+						useColor={useColor}
 					/>
 				) : (
 					<p className={'Camera-Ascii-Waiting'}>Camera not ready.<br/>Please wait...</p>)}
