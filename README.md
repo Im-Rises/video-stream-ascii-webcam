@@ -29,7 +29,7 @@ The example is using the webcam of your device, but you can use any video stream
 
 ## Dependencies
 
-The project is using React, TypeScript, JavaScript, TensorFlow, SCSS, CSS, etc...
+The project is using React, TypeScript, JavaScript, SCSS, CSS, etc...
 
 You can find the dependencies in the `dependencies` folder.
 
