@@ -1,6 +1,7 @@
 import React, {useEffect, useRef, useState} from 'react';
-import VideoAscii from 'video-stream-ascii';
+import {VideoAscii, ArtTypeEnum} from 'video-stream-ascii';
 import Webcam from 'react-webcam';
+import CopyImage from '../assets/copy.svg';
 import './CameraAsciiPanel.scss';
 
 const CameraAsciiPanel = () => {
@@ -74,11 +75,13 @@ const CameraAsciiPanel = () => {
 		<div className={'Camera-Ascii-Panel'} data-testid='camera-ascii-test' ref={parentRef}>
 			<div>
 				<button className={'Button-Copy-Clipboard'}
-					onClick={async () => copyToClipboard(preTagRef.current!.innerText)}>Copy
+					onClick={async () => copyToClipboard(preTagRef.current!.innerText)}>
+					<img src={CopyImage}/>
 				</button>
-				<button className={'Button-Toggle-Color'} onClick={() => {
-					toggleColorMode();
-				}}>Toggle color
+				<button className={`${'Button-Toggle-Mode'} ${useColor ? 'Button-Toggle-BW' : 'Button-Toggle-Color'}`}
+					onClick={() => {
+						toggleColorMode();
+					}}>
 				</button>
 			</div>
 			<div>
@@ -95,7 +98,7 @@ const CameraAsciiPanel = () => {
 						fontColor={'white'}
 						backgroundColor={'black'}
 						preTagRef={preTagRef}
-						useColor={useColor}
+						artType={useColor ? ArtTypeEnum.ASCII_COLOR_BG_IMAGE : ArtTypeEnum.ASCII}
 					/>
 				) : (
 					<p className={'Camera-Ascii-Waiting'}>Camera not ready.<br/>Please wait...</p>)}
