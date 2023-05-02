@@ -99,6 +99,7 @@ const CameraAsciiPanel = () => {
 						preTagRef={preTagRef}
 						artType={useColor ? ArtTypeEnum.ASCII_COLOR_BG_IMAGE : ArtTypeEnum.ASCII}
 						flipY={true}
+						frameRate={30}
 					/>
 				) : (
 					<p className={'Camera-Ascii-Waiting'}>Camera not ready.<br/>Please wait...</p>)}
