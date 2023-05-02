@@ -15,6 +15,7 @@
 
 .Button-Copy-Clipboard {
   position: absolute;
+  z-index: 1;
   top: 6%;
   right: 0;
   text-align: center;
@@ -36,6 +37,7 @@
 
 .Button-Toggle-Mode {
   position: absolute;
+  z-index: 1;
   top: 0;
   right: 0;
   cursor: pointer;

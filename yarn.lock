@@ -8963,10 +8963,10 @@ vary@~1.1.2:
   resolved "https://registry.npmjs.org/vary/-/vary-1.1.2.tgz"
   integrity sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==
 
-video-stream-ascii@1.2.1:
-  version "1.2.1"
-  resolved "https://registry.npmjs.org/video-stream-ascii/-/video-stream-ascii-1.2.1.tgz#10dfe2f9a9e49595ccd3e6892d93b7c8d6a8bca5"
-  integrity sha512-/4KY0FsA7/iuJW4FYGFjFiLfpM/o6aU0y6CL3PptYOt1tFjciuqT7I68YBx8XqUXxTCmnZ4V0Dcdz1opY8++WA==
+video-stream-ascii@1.4.1:
+  version "1.4.1"
+  resolved "https://registry.npmjs.org/video-stream-ascii/-/video-stream-ascii-1.4.1.tgz#9cb108f0c2a53613e396ef48e5a0d8d7a9a9f53a"
+  integrity sha512-KuLDcrKr08HCH5sAkuD2PLRy7O+JsCIy06+jz5Eo6pHu4iVrD77LzCB5cHdu9S+k29n6mqCZf5y7k2x3OZqVLw==
   dependencies:
     react "^18.2.0"
     react-dom "^18.2.0"
