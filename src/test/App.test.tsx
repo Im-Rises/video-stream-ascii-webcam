@@ -1,6 +1,6 @@
 import React from 'react';
 import {render, screen} from '@testing-library/react';
-import {GITHUB_LINK_TEXT} from '../constants/pixel-ascii';
+import {GITHUB_LINK_TEXT} from '../constants/github-project-constants';
 import App from '../App';
 
 test('Render GitHub Project Panel', () => {
