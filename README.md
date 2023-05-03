@@ -1,4 +1,4 @@
-# video-stream-ascii
+# video-stream-ascii-webcam
 
 <p align="center">
     <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="javascriptLogo" style="height:50px;">
