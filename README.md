@@ -41,10 +41,10 @@ It uses the react-webcam library to get the video stream from the webcam.
 
 ## GitHub Actions
 
-[![pages-build-deployment](https://github.com/Im-Rises/video-stream-ascii-website/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Im-Rises/video-stream-ascii-website/actions/workflows/pages/pages-build-deployment)
-[![Node.js CI](https://github.com/Im-Rises/video-stream-ascii-website/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/Im-Rises/video-stream-ascii-website/actions/workflows/node.js.yml)
-[![ESLint](https://github.com/Im-Rises/video-stream-ascii-website/actions/workflows/eslint.yml/badge.svg?branch=main)](https://github.com/Im-Rises/video-stream-ascii-website/actions/workflows/eslint.yml)
-[![CodeQL](https://github.com/Im-Rises/video-stream-ascii-website/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/Im-Rises/video-stream-ascii-website/actions/workflows/codeql.yml)
+[![pages-build-deployment](https://github.com/Im-Rises/video-stream-ascii-webcam/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Im-Rises/video-stream-ascii-webcam/actions/workflows/pages/pages-build-deployment)
+[![Node.js CI](https://github.com/Im-Rises/video-stream-ascii-webcam/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/Im-Rises/video-stream-ascii-webcam/actions/workflows/node.js.yml)
+[![ESLint](https://github.com/Im-Rises/video-stream-ascii-webcam/actions/workflows/eslint.yml/badge.svg?branch=main)](https://github.com/Im-Rises/video-stream-ascii-webcam/actions/workflows/eslint.yml)
+[![CodeQL](https://github.com/Im-Rises/video-stream-ascii-webcam/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/Im-Rises/video-stream-ascii-webcam/actions/workflows/codeql.yml)
 
 The project is set up to run the following actions:
 
@@ -82,4 +82,4 @@ Quentin MOREL :
 - @Im-Rises
 - <https://github.com/Im-Rises>
 
-[![GitHub contributors](https://contrib.rocks/image?repo=Im-Rises/video-stream-ascii-website)](https://github.com/Im-Rises/video-stream-ascii-website/graphs/contributors)
+[![GitHub contributors](https://contrib.rocks/image?repo=Im-Rises/video-stream-ascii-webcam)](https://github.com/Im-Rises/video-stream-ascii-webcam/graphs/contributors)
