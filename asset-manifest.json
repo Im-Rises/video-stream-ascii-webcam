@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/video-stream-ascii-webcam/static/css/main.2785f70c.css",
+    "main.js": "/video-stream-ascii-webcam/static/js/main.7650b446.js",
+    "static/js/496.f298109d.chunk.js": "/video-stream-ascii-webcam/static/js/496.f298109d.chunk.js",
+    "static/media/github.svg": "/video-stream-ascii-webcam/static/media/github.255db585f8a0eb28a1e4deb91bde207d.svg",
+    "index.html": "/video-stream-ascii-webcam/index.html",
+    "static/media/copy.svg": "/video-stream-ascii-webcam/static/media/copy.dcb6bf73de369d114f61833d940384c1.svg",
+    "main.2785f70c.css.map": "/video-stream-ascii-webcam/static/css/main.2785f70c.css.map",
+    "main.7650b446.js.map": "/video-stream-ascii-webcam/static/js/main.7650b446.js.map",
+    "496.f298109d.chunk.js.map": "/video-stream-ascii-webcam/static/js/496.f298109d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2785f70c.css",
+    "static/js/main.7650b446.js"
+  ]
+}
