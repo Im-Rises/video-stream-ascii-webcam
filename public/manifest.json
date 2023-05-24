@@ -1,6 +1,6 @@
 {
-  "short_name": "Video ASCII Webcam",
-  "name": "Webcam video stream to ASCII art",
+  "short_name": "video-ascii-webcam",
+  "name": "Video ASCII Webcam",
   "icons": [
     {
       "src": "logo.ico",
